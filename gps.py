@@ -3,7 +3,7 @@ from pyubx2 import UBXReader
 
 stream = serial.Serial("/dev/ttyAMA2", baudrate=9600, timeout=50)
 ubr = UBXReader(stream)
-gf =  open("gps.txt", "a")
+gf =  open("gps2.txt", "a")
 
 
 while True:
